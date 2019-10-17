@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std; 
+int main(){
+	int n,m=0;
+	cout<<"Ededi daxil edin: ";
+	cin>>n;
+	do{
+		n/=10;  // n=n/10 
+		m+=1;	// m=m+1
+	} while (n>0);
+	
+	cout<<"Daxil etdiyiniz ededin reqemlerin sayi: "<<m;
+	return 0;
+}
